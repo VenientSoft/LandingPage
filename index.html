@@ -29,11 +29,9 @@
 
    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/components/icon.min.css'>
   <style type="text/css">
-
     .hidden.menu {
       display: none;
     }
-
     .masthead.segment {
       min-height: 700px;
       padding: 1em 0em;
@@ -54,7 +52,6 @@
       font-size: 1.7em;
       font-weight: normal;
     }
-
     .ui.vertical.stripe {
       padding: 8em 0em;
     }
@@ -74,7 +71,6 @@
     .ui.vertical.stripe .horizontal.divider {
       margin: 3em 0em;
     }
-
     .quote.stripe.segment {
       padding: 0em;
     }
@@ -82,15 +78,12 @@
       padding-top: 5em;
       padding-bottom: 5em;
     }
-
     .footer.segment {
       padding: 5em 0em;
     }
-
     .secondary.pointing.menu .toc.item {
       display: none;
     }
-
     @media only screen and (max-width: 700px) {
       .ui.fixed.menu {
         display: none !important;
@@ -114,8 +107,6 @@
         font-size: 1.5em;
       }
     }
-
-
   </style>
 
   <script src="./Homepage - Semantic_files/jquery.min.js.download"></script>
@@ -125,7 +116,6 @@
   <script>
   $(document)
     .ready(function() {
-
       // fix menu when passed
       $('.masthead')
         .visibility({
@@ -138,12 +128,10 @@
           }
         })
       ;
-
       // create sidebar and attach to menu open
       $('.ui.sidebar')
         .sidebar('attach events', '.toc.item')
       ;
-
     })
   ;
   </script>
@@ -170,15 +158,20 @@
           <h3 class="ui header">Interested in hiring us?</h3>
           <p>Head on over to our Fiverr page, or send us an email at venientsoft@gmail.com.</p>
 
-          <button href = "https://www.fiverr.com/s2/81fecc82dd" class="ui blue button">
-          <i class="credit card icon"></i>
-          Fiverr
-        </button>
 
-        <button href = "mailto:venientsoft@gmail.com" class="ui orange button">
-        <i class="envelope icon"></i>
-        E-Mail
-      </button>
+          <a href = "https://www.fiverr.com/s2/81fecc82dd">
+            <button class="ui blue button">
+            <i class="credit card icon"></i>
+            Fiverr
+            </button>
+          </a>
+
+        <a href = "mailto:venientsoft@gmail.com">
+          <button class="ui orange button">
+          <i class="envelope icon"></i>
+          E-Mail
+         </button>
+       </a>
 
         </div>
         <div class="six wide right floated column">
